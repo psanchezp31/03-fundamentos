@@ -1,16 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <Indecision/>    <!-- con :start se bindea el tipo de dato (Number) con el "100" que se está pasando, Para que lo tome como numero no como string-->
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Indecision from './components/Indecision.vue'
+//import Counter from './components/Counter.vue'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    Indecision
   }
+  
+  
 }
 </script>
 
